@@ -1,3 +1,3 @@
 # Cookie-Clicker-2.048
 
-awesome
+not done yet!
