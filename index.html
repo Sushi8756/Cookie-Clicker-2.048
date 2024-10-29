@@ -1,0 +1,101 @@
+<article class="wrapper">
+<!-- https://www.sliderrevolution.com/resources/css-animated-background/ -->
+</article>
+<div class="why">
+  <p class="title">Hey</p>
+  <p class="bodyt"><br><br><br><br><br>New link alert, click that darn cookie to go!</p>
+<a href="https://sushi8756.github.io/Cookie-Clicker-Source-Code/" class="link"><img class="ahref" src="https://static.wikia.nocookie.net/cookieclicker/images/5/5a/PerfectCookie.png" alt="Cookielol">
+</a>  
+</div>
+<style>
+  @import url("https://fonts.googleapis.com/css?family=Lobster&display=swap")
+  repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 500% 500%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.title {
+  font-size: 3.5rem;
+  font-family: "Lobster", cursive;
+  text-align:right;
+}
+.ahref {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.link {
+  position:absolute;
+  z-index:-5;
+  margin-left:auto;
+  margin-right:auto;
+  width:35%;
+}
+.bodyt {
+  font-size: 1.3rem;
+  position:absolute;
+}
+.why {
+  user-select: none; /* Standard syntax */
+  text-align:center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  color: #eee;
+}
+a {
+  align-items:center;
+  position:static;
+}
+
+.wrapper {
+  opacity:69%;
+  blending:screen;
+  position:absolute;
+  animation: scroll 100s linear infinite;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnxD_iGvbhAN5KeanZUVycZEacVeg158nTKQ&s");
+  color: #eee;
+  height: 100vh;
+  min-width: 360px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+
+@keyframes scroll {
+  100% {
+    background-position: -50% -600%;
+  }
+}
+
+/* Fallback if the operatring system prefers reduced motion*/
+@media (prefers-reduced-motion) {
+  .wrapper {
+    animation: scroll 800s linear infinite;
+  }
+}
+
+
+</style>
